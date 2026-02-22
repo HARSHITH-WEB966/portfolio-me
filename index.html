@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshith Sai Teja Ballipalli | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{
+background:#0f172a;
+color:#fff;
+line-height:1.6;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 10%;
+background:rgba(15,23,42,.85);
+backdrop-filter:blur(8px);
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+header h1{color:#38bdf8;}
+
+nav a{
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{color:#38bdf8;}
+
+section{padding:100px 10%;}
+
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.hero h2{font-size:48px;}
+.hero span{color:#38bdf8;}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+margin-right:10px;
+padding:11px 22px;
+background:#38bdf8;
+color:#000;
+text-decoration:none;
+border-radius:7px;
+font-weight:600;
+transition:.25s;
+}
+
+.btn:hover{
+background:#0ea5e9;
+box-shadow:0 0 18px rgba(56,189,248,.6);
+transform:translateY(-2px);
+}
+
+/* GRID */
+.skills,.projects,.profiles{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:22px;
+}
+
+.card{
+background:#1e293b;
+padding:22px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+background:#334155;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+background:#1e293b;
+}
+
+@media(max-width:768px){
+.hero h2{font-size:32px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Harshith</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#profiles">Coding</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Hi, I'm <span>Harshith Sai Teja</span></h2>
+<p>DSA Enthusiast | 2nd Year CSE | Frontend Developer | Aspiring SDE</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+<a href="https://drive.google.com/uc?export=view&id=1t9fDJKQZWoV-5Ty513brxnDJzs0kyiQb"
+class="btn" target="_blank">Download Resume</a>
+
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I'm a 2nd-year Computer Science student passionate about problem solving,
+Data Structures & Algorithms, and web development.
+Currently focused on improving my coding skills and building real projects,
+with the goal of becoming a Software Development Engineer in a top tech company.
+</p>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="card">
+<h3>Programming</h3>
+<p>C++, JavaScript, Python (Basics)</p>
+</div>
+
+<div class="card">
+<h3>Frontend</h3>
+<p>HTML, CSS, JavaScript, Responsive UI</p>
+</div>
+
+<div class="card">
+<h3>Core Skills</h3>
+<p>DSA, Problem Solving, Logic Building</p>
+</div>
+
+<div class="card">
+<h3>Tools</h3>
+<p>Git, GitHub, VS Code</p>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Digital Clock</h3>
+<p>Real-time digital clock using JavaScript.</p>
+<!-- paste repo later -->
+<a class="btn" href="#" target="_blank">GitHub</a>
+</div>
+
+<div class="card">
+<h3>Random Event Generator</h3>
+<p>Generates random events dynamically.</p>
+<a class="btn" href="#" target="_blank">GitHub</a>
+</div>
+
+<div class="card">
+<h3>Countdown Timer</h3>
+<p>Live countdown timer built using JavaScript.</p>
+<a class="btn" href="#" target="_blank">GitHub</a>
+</div>
+
+</div>
+</section>
+
+<section id="profiles">
+<h2>Coding Profiles</h2>
+
+<div class="profiles">
+
+<div class="card">
+<h3>LeetCode</h3>
+<p>Practice DSA problems and contests</p>
+<a class="btn" target="_blank"
+href="https://leetcode.com/u/Harshith_Sai_Teja_B/">Open Profile</a>
+</div>
+
+<div class="card">
+<h3>CodeChef</h3>
+<p>Competitive programming contests</p>
+<a class="btn" target="_blank"
+href="https://www.codechef.com/users/phantom_alpha">Open Profile</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+
+<p>Email: harshithsaiteja087@gmail.com</p>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/harshith-sai-teja-ballipalli-307508384/"
+target="_blank" style="color:#38bdf8;">Open LinkedIn</a>
+</p>
+
+<p>
+GitHub:
+<a href="https://github.com/HARSHITH-WEB966"
+target="_blank" style="color:#38bdf8;">Open GitHub</a>
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 Harshith Sai Teja Ballipalli</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+anchor.addEventListener('click',function(e){
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+});
+});
+</script>
+
+</body>
+</html>
